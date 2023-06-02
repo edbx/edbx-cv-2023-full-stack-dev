@@ -1,0 +1,12 @@
+.edbxLogo {
+    fill: black;
+    width: 50;
+    height: 50;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
