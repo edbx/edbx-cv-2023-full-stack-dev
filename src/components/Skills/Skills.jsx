@@ -4,11 +4,8 @@ export const Skills = () => {
   // ..
   return (
     <section className={style.skills}>
-      <h2>SkillSet</h2>
-      <h3>Front-end development</h3>
-      <h3>Back-end development</h3>
-      <ul>
-        <p>set of skills</p>
+      <h2 className={style.heading}>SkillSet</h2>
+      {/* <ul className={style.list}>
         <li>Languages: JavaScript (ES6+), HTML5, CSS3</li>
         <li>Frameworks/Libraries: React, Node.js, Express.js</li>
         <li>Version Control: Git, GitHub</li>
@@ -18,7 +15,46 @@ export const Skills = () => {
         <li>Design: Responsive Design, UI/UX Principles</li>
         <li>Database: MongoDB</li>
         <li>ther: RESTful APIs, JSON, AJAX, npm</li>
-      </ul>
+      </ul> */}
+
+      <table>
+        <tr>
+          <td className={style.leftCol}>Languages:</td>
+          <td>JavaScript (ES6+), HTML5, CSS3</td>
+        </tr>
+        <tr>
+          <td className={style.leftCol}>Frameworks/Libraries:</td>
+          <td>React, Node.js, Express.js</td>
+        </tr>
+        <tr>
+          <td className={style.leftCol}>Version Control:</td>
+          <td>Git, GitHub</td>
+        </tr>
+        <tr>
+          <td className={style.leftCol}>Agile Methodologies:</td>
+          <td>Scrums</td>
+        </tr>
+        <tr>
+          <td className={style.leftCol}>Tools:</td>
+          <td>Webpack, Babel, ESLint</td>
+        </tr>
+        <tr>
+          <td className={style.leftCol}>Testing:</td>
+          <td> Jest, Enzyme</td>
+        </tr>
+        <tr>
+          <td className={style.leftCol}>Design:</td>
+          <td>Responsive Design, UI/UX Principles</td>
+        </tr>
+        <tr>
+          <td className={style.leftCol}>Database:</td>
+          <td>MongoDB</td>
+        </tr>
+        <tr>
+          <td className={style.leftCol}>Other</td>
+          <td>RESTful APIs, JSON, AJAX, npm</td>
+        </tr>
+      </table>
       <p>
         I possess a strong technical skill set that includes expertise in
         various programming languages such as JavaScript (ES6+), HTML5, and

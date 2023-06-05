@@ -1,0 +1,52 @@
+.hero {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    
+
+    outline: 1px solid grey;
+}
+
+.backTitle1, .backTitle2 {
+    position: absolute;
+    transform: translate(50%, 90%);
+
+    width: calc(100vw - 60px);
+
+    font-size: 60px;
+    font-family: 'Gajraj One', cursive;
+
+    color: rgba(56, 50, 50, 0.299);
+
+    z-index: -1;
+/* outline: 1px solid red; */
+}
+
+.backTitle2 {
+    transform: translate(10%, -10%);
+}
+
+.preHeading {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.heading {
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.textAbout {
+    color: darkgray;
+    text-align: justify;
+
+    padding-right: 30px;
+    padding-left: 30px;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+}

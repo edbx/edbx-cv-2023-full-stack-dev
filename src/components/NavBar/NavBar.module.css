@@ -1,7 +1,17 @@
+.navBar {
+    
+}
+
 .navList {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   padding: 40px 0;
+   margin: 0;
 }
 
 .navItem:not(:last-child) {
-    margin-right: 10px;
+    margin-bottom: 20px;
+
 }

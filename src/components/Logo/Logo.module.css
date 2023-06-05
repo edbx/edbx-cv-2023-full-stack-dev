@@ -1,12 +1,43 @@
-.edbxLogo {
-    fill: black;
-    width: 50;
-    height: 50;
-    
-}
-
 .logo {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
+.edbxLogo {
+    position: relative;
+    bottom: 0px;
+
+    width: 32px;
+    height: 32px;
+
+    margin-right: 15px;
+
+    fill: var(--primary-logo-color);
+}
+
+.nameLogo {
+    display: none;
+    position: relative;
+    bottom: -5px;
+   
+}
+
+.name {
+    
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+}
+
+.firstName {
+    margin-right: 10px;
+}
+
+/* @media screen and (max-width: 768px) {
+        .firstName {
+            display: none;
+        }   
+} */
+
+

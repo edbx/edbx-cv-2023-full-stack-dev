@@ -1,3 +1,19 @@
 .skills {
-    font-size: 20px;
+    
+
+    outline: 1px solid grey;
 }
+
+.heading {
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.leftCol {
+    text-align: end;
+    vertical-align: top;
+}
+
